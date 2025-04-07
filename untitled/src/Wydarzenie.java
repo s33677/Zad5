@@ -3,7 +3,7 @@ public class Wydarzenie {
     private String data;
     private String miejsce;
     private int maxLiczbaMiejsc=100;
-    private int dostepneMiejsca=0;
+    private int dostepneMiejsca=maxLiczbaMiejsc;
     private double cena;
 
     public Wydarzenie(String nazwa, double cena) {
@@ -24,24 +24,31 @@ public class Wydarzenie {
         this.cena = cena;
     }
     public String getNazwa() {
+
         return nazwa;
     }
     public void setNazwa(String nazwa) {
+
         this.nazwa = nazwa;
     }
     public String getData() {
+
         return data;
     }
     public void setData(String data) {
+
         this.data = data;
     }
     public String getMiejsce() {
+
         return miejsce;
     }
     public void setMiejsce(String miejsce) {
+
         this.miejsce = miejsce;
     }
     public int getMaxLiczbaMiejsc() {
+
         return maxLiczbaMiejsc;
     }
     public void setMaxLiczbaMiejsc(int maxLiczbaMiejsc) {

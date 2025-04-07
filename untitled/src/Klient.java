@@ -4,7 +4,7 @@ public class Klient {
     private String imie;
     private String nazwisko;
     private String email;
-    private ArrayList<Wydarzenie> listarezerwacji;
+    private ArrayList<Wydarzenie> listarezerwacji= new ArrayList<Wydarzenie>();
 
     public Klient(String imie, String nazwisko, String email) {
         this.imie = imie;
